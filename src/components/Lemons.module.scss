@@ -1,0 +1,47 @@
+.Lemons {
+   background-image: url('../img/lemons.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.LemonsBody {
+   display: flex;
+   justify-content: center;
+   gap: 81px;
+   padding: 56px 0px 45px 0px;
+}
+
+@media (max-width:1199.98px) {
+   .LemonsBody {
+      gap: 50px;
+   }
+}
+
+@media (max-width:991.98px) {
+   .LemonsBody {
+      gap: 30px;
+      padding: 46px 0px 35px 0px;
+   }
+}
+
+@media (max-width:766.98px) {
+   .LemonsBody {
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 40px 0px 35px 0px;
+   }
+}
+
+@media (max-width:545px) {
+   .LemonsBody {
+      gap: 20px;
+      padding: 30px 0px 30px 0px;
+   }
+}
+
+@media (max-width:480px) {
+   .LemonsBody {
+      gap: 15px;
+      padding: 25px 0px 20px 0px;
+   }
+}

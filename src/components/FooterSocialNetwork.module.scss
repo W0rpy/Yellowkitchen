@@ -1,0 +1,58 @@
+.FooterSocialNetwork {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 48px;
+}
+
+.Description {
+   display: flex;
+   justify-content: flex-end;
+   gap: 60px;
+
+   span {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.25;
+   }
+}
+
+.SocialNetworks {
+   display: flex;
+   gap: 24px;
+}
+
+.DescriptionItems {
+   font-size: 12px;
+   font-weight: 800;
+   line-height: 1.25;
+   color: #fff;
+}
+
+@media (max-width: 549px) {
+   .FooterSocialNetwork {
+      margin-bottom: 30px;
+   }
+
+   .Description {
+      gap: 30px;
+   }
+}
+
+@media (max-width: 480px) {
+   .FooterSocialNetwork {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+   }
+
+   .SocialNetworks {
+      margin-bottom: 20px;
+      gap: 40px;
+   }
+
+   .Description {
+      justify-content: flex-start;
+      gap: 20px;
+   }
+}

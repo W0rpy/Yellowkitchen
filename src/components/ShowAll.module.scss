@@ -1,0 +1,51 @@
+.ShowAll {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   h3 {
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 300;
+      line-height: 1.7;
+      letter-spacing: 0.08em;
+   }
+}
+
+.ShowLink {
+   background-color: #F2F4FA;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 14px 24px 10px 24px;
+   color: #9093A6;
+   font-weight: 700;
+   line-height: 1.25;
+   letter-spacing: 0.5px;
+}
+
+@media (max-width:991.98px) {
+   .ShowAll {
+
+      h3 {
+         font-size: 30px;
+      }
+   }
+}
+
+@media (max-width:766.98px) {
+   .ShowLink {
+      padding: 10px 15px 8px 15px;
+   }
+
+}
+
+@media (max-width:480px) {
+   .ShowAll {
+
+      h3 {
+         font-size: 25px;
+      }
+   }
+}

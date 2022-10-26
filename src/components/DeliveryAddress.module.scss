@@ -1,0 +1,139 @@
+.DeliveryAddress {
+   background-color: #F2F4FA;
+}
+
+.AddressForm {
+   display: flex;
+   justify-content: space-between;
+   padding: 80px 70px 81px 75px;
+   align-items: center;
+}
+
+.FormContent {
+   flex: 0 1 50%;
+}
+
+.FormAddress {
+   flex: 0 1 50%;
+   padding: 0px 0px 0px 120px;
+   display: flex;
+}
+
+.FormTitle {
+   font-family: Poppins;
+   font-size: 36px;
+   font-weight: 300;
+   line-height: 1.7;
+   letter-spacing: 0.08em;
+   margin-bottom: 24px;
+}
+
+.FormSubtitle {
+   font-weight: 300;
+   letter-spacing: 0.5px;
+   padding: 0px 140px 0px 0px;
+}
+
+.FormInput {
+   position: relative;
+   padding: 24px 16px 24px 48px;
+   width: 100%;
+   margin-right: 4px;
+   font-weight: 300;
+   letter-spacing: 0.5px;
+   color: #9093A6;
+   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+   border-radius: 6px;
+}
+
+.FormBtn {
+   background-color: #FFE145;
+   color: #B79C10;
+   font-weight: 700;
+   line-height: 1.25;
+   letter-spacing: 0.5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex: 0 1 88px;
+   border-radius: 4px;
+   padding: 28px 24px;
+
+}
+
+@media (max-width:1199.98px) {
+   .AddressForm {
+      padding: 60px 0px 60px 0px;
+   }
+
+   .FormSubtitle {
+      padding: 0px 50px 0px 0px;
+   }
+
+   .FormAddress {
+      padding: 0px 0px 0px 30px;
+   }
+
+   .FormContent {
+      flex: 0 1 60%;
+   }
+
+}
+
+@media (max-width:991.98px) {
+   .FormTitle {
+      font-size: 30px;
+      line-height: 1.4;
+   }
+
+   .AddressForm {
+      padding: 40px 0px 40px 0px;
+      flex-direction: column;
+      align-items: flex-start;
+   }
+
+   .FormContent {
+      flex: 0 1 70%;
+      margin-bottom: 20px;
+   }
+
+   .FormAddress {
+      flex: 0 1 70%;
+      padding: 0px 0px 0px 0px;
+   }
+
+   .FormInput {
+      padding: 15px 16px 15px 48px;
+   }
+
+   .FormBtn {
+      flex: 0 1 70px;
+      padding: 15px 16px;
+
+   }
+}
+
+@media (max-width:766.98px) {
+   .FormSubtitle {
+      padding: 0px 0px 0px 0px;
+      font-size: 14px;
+   }
+
+   .FormContent {
+      flex: 0 1 100%;
+   }
+
+   .FormAddress {
+      flex: 0 1 100%;
+   }
+
+   .FormTitle {
+      margin-bottom: 15px;
+   }
+}
+
+@media (max-width:480px) {
+   .FormTitle {
+      font-size: 25px;
+   }
+}

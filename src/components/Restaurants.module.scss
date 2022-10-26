@@ -1,0 +1,153 @@
+.RestaurantsContent {
+   margin-bottom: 48px;
+}
+
+.Slide {
+   max-width: 296px;
+   margin: 0 auto;
+
+   img {
+      width: 100%;
+   }
+
+   filter: drop-shadow(0px 2px 16px rgba(60, 62, 74, 0.08));
+}
+
+.MainPhoto {
+   border-radius: 4px 4px 0px 0px;
+}
+
+.swiperNavPrevRef,
+.swiperNavNextRef {
+   background-color: #fff;
+   width: 48px;
+   height: 48px;
+   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+   border-radius: 25px;
+   top: 40%;
+   position: absolute;
+   z-index: 2;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.swiperNavPrevRef {
+   left: 3px;
+}
+
+.swiperNavNextRef {
+   right: 3px;
+
+   img {
+      transform: rotate(180deg);
+   }
+}
+
+.SliderMain {
+   margin-bottom: 72px;
+   height: 310px;
+   padding: 10px 10px;
+}
+
+.FirstSlide {
+   background-color: #fff;
+}
+
+@media (max-width:1199.98px) {
+   .RestaurantsContent {
+      margin-bottom: 40px;
+   }
+
+   .SliderMain {
+      margin-bottom: 50px;
+   }
+}
+
+@media (max-width:991.98px) {
+   .RestaurantsContent {
+      margin-bottom: 30px;
+   }
+
+   .SliderMain {
+      margin-bottom: 0px;
+      height: 370px;
+      padding: 0px 10px;
+   }
+
+   .swiperNavPrevRef,
+   .swiperNavNextRef {
+      top: 83%;
+   }
+
+   .swiperNavPrevRef {
+      left: 20px;
+   }
+
+   .swiperNavNextRef {
+      right: 20px;
+   }
+}
+
+@media (max-width:676px) {
+   .swiperNavPrevRef {
+      left: 10px;
+   }
+
+   .swiperNavNextRef {
+      right: 10px;
+   }
+
+}
+
+
+@media (max-width:766.98px) {
+   .RestaurantsContent {
+      margin-bottom: 25px;
+   }
+}
+
+
+@media (max-width:624.99px) {
+
+   .swiperNavPrevRef,
+   .swiperNavNextRef {
+      top: 40%;
+   }
+
+   .swiperNavPrevRef {
+      left: 20px;
+   }
+
+   .swiperNavNextRef {
+      right: 20px;
+   }
+
+   .SliderMain {
+      margin-bottom: 30px;
+      height: 310px;
+      padding: 10px 10px;
+   }
+}
+
+@media (max-width:480px) {
+   .SliderMain {
+      margin-bottom: 0px;
+      height: 370px;
+      padding: 0px 10px;
+   }
+
+   .swiperNavPrevRef,
+   .swiperNavNextRef {
+      top: 83%;
+   }
+
+   .swiperNavPrevRef {
+      left: 10px;
+   }
+
+   .swiperNavNextRef {
+      right: 60%;
+   }
+}

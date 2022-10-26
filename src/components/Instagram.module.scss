@@ -1,0 +1,78 @@
+.InstagramHashtag {
+   font-family: Poppins;
+   font-size: 36px;
+   font-weight: 300;
+   letter-spacing: 0.08em;
+   margin-bottom: 21px;
+   line-height: 1.7;
+
+   span {
+      color: #9093A6;
+   }
+}
+
+.Hashtag {
+   color: #313030;
+}
+
+.InstagramPhotos {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 72px;
+   gap: 24px;
+}
+
+.InstagramPhoto {
+
+   img {
+      max-width: 100%;
+      border-radius: 6px;
+   }
+}
+
+@media (max-width:1199.98px) {
+   .InstagramPhotos {
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+   }
+}
+
+@media (max-width:991.98px) {
+   .InstagramHashtag {
+      font-size: 30px;
+   }
+}
+
+@media (max-width:766.98px) {
+   .InstagramPhotos {
+      gap: 18px;
+   }
+}
+
+@media (max-width:630.98px) {
+   .InstagramPhotos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+   }
+
+   .InstagramHashtag {
+      line-height: 1.2;
+      margin-bottom: 18px;
+   }
+}
+
+@media (max-width:480px) {
+   .InstagramHashtag {
+      font-size: 25px;
+      text-align: center;
+   }
+
+   .InstagramPhotos {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 15px;
+   }
+}

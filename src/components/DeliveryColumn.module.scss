@@ -1,0 +1,24 @@
+.DeliveryColumn {
+   display: flex;
+   align-items: center;
+}
+
+.ColumnIcon {
+   margin-right: 16px;
+}
+
+.ColumnText {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.ColumnTitle {
+   font-weight: 300;
+   letter-spacing: 0.5px;
+}
+
+.ColumnSubtitle {
+   font-weight: 300;
+   letter-spacing: 0.5px;
+}
